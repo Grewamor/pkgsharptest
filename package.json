@@ -1,0 +1,26 @@
+{
+  "name": "pkgsharptest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "pkg index.js -t latest-win-x64 --options max_old_space_size=4096 -o test -c package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grewamor/pkgsharptest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grewamor/pkgsharptest/issues"
+  },
+  "homepage": "https://github.com/Grewamor/pkgsharptest#readme",
+  "dependencies": {
+    "sharp": "^0.28.0"
+  },
+  "devDependencies": {
+    "pkg": "^4.5.1"
+  }
+}
