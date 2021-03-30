@@ -5,4 +5,4 @@
 * npm run prod
 
 # Execute
-* text.exe
+* test.exe
